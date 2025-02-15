@@ -1,0 +1,18 @@
+# Ignore Python bytecode
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset and model files
+*.bin
+*.pt
+datasets/
+model_output/
+
+# Ignore __pycache__ directory
+__pycache__/
+# Exclude large model files
+web3scraper/esg_finetuned_finbert/model.safetensors
+web3scraper/esg_sentiment_model/checkpoint-250/model.safetensors
